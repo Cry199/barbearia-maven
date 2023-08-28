@@ -1,0 +1,15 @@
+O sufixo DAO em nomes de classes como AgendaDAO significa "Data Access Object" (Objeto de Acesso a Dados, em tradução livre).
+
+Ele é comumente utilizado em aplicações Java que seguem o padrão de projeto DAO para abstrair e encapsular o acesso a dados.
+
+Algumas razões para utilizar esse sufixo:
+
+Deixa claro que a classe serve para acessar dados, geralmente de um banco de dados.
+Separa as regras de negócio das classes de entidade (como Agenda) da lógica de acesso a dados.
+Permite trocar a implementação do acesso a dados sem impactar o código que usa a classe DAO.
+Ajuda a manter o código mais organizado e desacoplado.
+Então resumindo, as classes DAO encapsulam a complexidade de lidar com bancos de dados, queries, connections,
+etc. Elas expõem uma interface simples para que seu código possa recuperar e persistir objetos de maneira transparente.
+
+Usar o padrão DAO é considerado uma boa prática para organizar o acesso a dados em aplicações Java/J2EE.
+

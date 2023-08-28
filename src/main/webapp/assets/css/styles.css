@@ -1,0 +1,176 @@
+/* Geral */ /*  */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #CEDCDF;
+}
+
+h1
+{
+    color: #707add;
+    font-size: 2.5em;
+}
+
+h2
+{
+    color:#707add;
+}
+
+h3
+{
+    color: #707add;
+    background: #40423F;
+    padding: 5px;
+}
+
+p
+{
+    padding: 5px;
+}
+
+ul
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:link, a:visited
+{
+    color: #707add; 
+}
+
+a:hover
+{
+    color: #40423F;
+    background: white;
+    text-decoration: underline;
+}
+
+/* Layout */
+
+#area-cabecalho
+{
+    background: #686497;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+#area-logo, #area-menu
+{
+    padding: 20px;
+}
+
+#area-principal
+{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-conteudo
+{
+    width: 1000px;
+    float: left;
+}
+
+#area-lateral
+{
+    width: 240px;
+    float: right;
+}
+
+#rodape
+{
+    clear: both;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    background: #686497;
+}
+
+.conteudo, .card
+{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.data-conteudo
+{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.conteudo-lateral
+{
+    padding: 10px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.postagem-lateral
+{
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+.mangas img
+{
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/* Menu */
+
+#logo-texto
+{
+    color: black;
+}
+
+#area-menu
+{
+    font-size: 1.5em;
+}
+
+#area-menu a:link, #area-menu a:visited
+{
+    color: white; 
+    padding: 10px 12px;
+}
+
+#area-menu a:hover
+{
+    color: #40423F;
+    background: white;
+    text-decoration: none;
+}
+
+#logoImg
+{
+    padding-right: 10px;
+    pointer-events: none;
+}
+
+/*  */
+
+
