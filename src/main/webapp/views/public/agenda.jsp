@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
 <html>
@@ -36,20 +37,21 @@
 
                         <table>
                             <tr>
-                                <th>Nome Cliente</th>
-                                <th>Nome Funcionário</th>
-                                <th>Hora Agenda</th>
+                                <th> Nome Cliente / </th>
+                                <th> Nome Funcionario /</th>
+                                <th> Hora Agenda</th>
                             </tr>
 
-                            <!--<c:forEach items="${agendas}" var="agenda">
+                            <jsp:useBean id="agendas" scope="request" type="java.util.List"/>
+                            <c:forEach items="${agendas}" var="agenda">
 
-                                <tr>
-                                    <td>${agenda.nomeCliente}</td>
-                                    <td>${agenda.nomeFuncionario}</td>
-                                    <td>${agenda.horaAgenda}</td>
-                                </tr>
+                            <tr>
+                                <td>${agenda.nomeCliente}</td>
+                                <td>${agenda.nomeFuncionario}</td>
+                                <td>${agenda.horaAgenda}</td>
+                            </tr>
 
-                            </c:forEach>-->
+                            </c:forEach>
 
                         </table>
                     </div>
