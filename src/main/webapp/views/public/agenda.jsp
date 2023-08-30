@@ -34,18 +34,23 @@
                     
                     <div class="conteudo">
 
-                        <jsp:useBean id="agendaDAO" class="com.barbearia.dao.AgendaDAO" />
-
                         <table>
-                            <c:forEach var="agenda" items="${agendaDAO.listarAgendas()}">
-                              
-                              <tr>
-                                <td>${agenda.nomeCliente}</td> 
-                                <td>${agenda.funcionarioNome}</td>
-                                <td>${agenda.dataHora}</td>
-                              </tr>
-                            
-                            </c:forEach>           
+                            <tr>
+                                <th>Nome Cliente</th>
+                                <th>Nome Funcionário</th>
+                                <th>Hora Agenda</th>
+                            </tr>
+
+                            <!--<c:forEach items="${agendas}" var="agenda">
+
+                                <tr>
+                                    <td>${agenda.nomeCliente}</td>
+                                    <td>${agenda.nomeFuncionario}</td>
+                                    <td>${agenda.horaAgenda}</td>
+                                </tr>
+
+                            </c:forEach>-->
+
                         </table>
                     </div>
                 </div>
