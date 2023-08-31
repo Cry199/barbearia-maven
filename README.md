@@ -1,0 +1,3 @@
+# barbearia-maven
+
+Mais uma tentativa de cria um projeto maven....
